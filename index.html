@@ -3,14 +3,18 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-img {
+img,form {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 body {
  background-color:black;
+ color:white;
+ font-family:verdana;
+ text-align:center;
 }
+
 </style>
 <title>Nefelibata</title>
 </head>
@@ -19,6 +23,16 @@ body {
 <h1 style="color:white;font-family:verdana;text-align:center;">Hello Alibaba Cloud</h1>
 <img src="http://img.nefelibata.tech/alibaba_cloud_logo.jpg" alt="Alibaba Cloud Logo" style="width:50%;">
 <!--Auto Scaled Server-->
+
+<p>
+  <br/>
+<h3>Leave a Note</h3>
+<form action="insert.php" method="post">
+  Name: <input type="text" name = "userName" maxlength="50"  size="10"/>
+  Note: <input type="text" name = "note" maxlength="200" size="50"/>
+  <input type="submit" />
+</form>
+</p>
+
 </body>
 </html>
-
