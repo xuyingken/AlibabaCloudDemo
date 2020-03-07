@@ -22,7 +22,7 @@ body {
 $username = "service_ac";
 $password = "P@ssw0rd";
 $database = "neflibata";
-$mysqli = new mysqli("rm-gs5k6yve9ydtg508o.mysql.singapore.rds.aliyuncs.com", $username, $password, $database);
+$mysqli = new mysqli("m-gs54q0r13q990dkg521520.mysql.singapore.rds.aliyuncs.com", $username, $password, $database);
  
 $query = "SELECT * FROM note";
  
